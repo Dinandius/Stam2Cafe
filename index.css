@@ -1,0 +1,110 @@
+body {
+    background-image: url('Galjoen.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: 100vw 100vh;
+    margin: 0;
+    color: #8e1f13;
+}
+
+header{
+    background-color: #ffffff;
+    height: 10vh;
+}
+
+header a img{
+    height: 15vh;
+    float: left;
+}
+
+header p{
+    font-size: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    height: 5vh;
+    font-size: 4vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8e1f13;
+}
+
+nav ul li a:hover{
+    background-color: #dddddd;
+}
+
+article.info {
+    background-color: #ffffff;
+    text-align: center;
+    height: 70vh;
+}
+
+article{
+    background-color: #ffffff;
+    color: #8e1f13;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#countdown{
+    background-color: #eeeeee;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+footer h1{
+    margin-bottom: 8px;
+}
+
+footer section .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-tiktok {
+    background: #000000;
+    color: white;
+}
